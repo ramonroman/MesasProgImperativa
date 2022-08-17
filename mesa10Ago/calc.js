@@ -28,6 +28,21 @@ console.log(`Teste de operação matemática do tipo: Divisão por 0 ${dividedBy
 //console.log(dividedBy(10, 2));
 
 function squareNumber(n) {
+    let result = multiply(n, 1) * multiply(n, 1);
+    return result;
+}
+console.log(squareNumber(2));
+
+function average(n1, n2, n3) {
+    let result = (n1 + n2 + n3) / 3
+    return result
+}
+
+console.log(`a média é: ${average(5, 10, 10)}`)
+
+function percent(n1, n2) {
+    let result = (n1 * n2) / 100
+    return result;
 
 }
-console.log(squareNumber(10));
+console.log(`A porcentagem é: ${percent(100, 10)}`)
