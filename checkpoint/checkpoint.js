@@ -43,10 +43,10 @@ function microwave(meal, time) {
     } else if (time < deafultTime) {
         console.log("Tempo insuficiente.");
     } else if (time >= deafultTime * 3) {
-        console.log('KABOOOM!!!');
+        console.log('KABUMM');
     }
 }
 
-microwave(brigadeiro, 15);
+microwave(brigadeiro, 45);
 
-console.log("Prato pronto, bom apetite!!!");
+console.log("Prato pronto, bom apetite!");
